@@ -32,6 +32,7 @@ class Plants extends Map {
     }
   }
   draw() {
+<<<<<<< HEAD
     for (const plant of this.values()) {
       plant.draw();
     }
@@ -57,6 +58,12 @@ class Plant {
       this.size += 1;
     } else {
       this.size -= 2;
+=======
+    background(220,0,220);
+    line(0, 0, this.p.x, this.p.y);
+    for (const w of this.wait) {
+      circle(w.x, w.y, 100);
+>>>>>>> develop
     }
   }
   draw() {
