@@ -1,6 +1,7 @@
 // タカハトゲームのシミュレータ
 const STEP = 30;
-const R = 50;
+//const R = 50;
+const R = 10;
 const MAX_WAIT = 30;
 
 let creature;
